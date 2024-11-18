@@ -1,0 +1,206 @@
+body{
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #1e1e2f;
+  color: #fff;
+}
+p{
+  font-size: 20px;
+}
+h2{
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 40px;
+  font-weight: 750;
+}
+h3{
+  font-size: 24px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+}
+h4{
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+}
+
+
+
+
+
+/*About me CSS*/
+.about-me{
+  max-width: 538px;
+  margin: auto;
+}
+.intro{
+  font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 25px;
+}
+.me{
+  border-radius: 25px;
+  max-height: 250px;
+  margin-block: 15px;
+}
+.expertise{
+  display: flex;
+  flex-direction: column;
+  margin-block: 15px;
+}
+.expertise-item{
+  padding-block: 6px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.expertise-item h4, .expertise-item p{
+  margin-bottom: 0;
+  width: 100%;
+  text-align: left;
+}
+.expertise-item img{
+  margin-inline: 18px;
+}
+
+
+
+
+
+/*Experience CSS*/
+.my-experience{
+  margin-top: 200px;
+}
+.experience{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 12px;
+}
+.experience p{
+  font-size: 16px;
+}
+.experience-info{
+
+}
+.experience-image{
+
+}
+.experience-info-details{
+  padding-left: 25px;
+}
+.experience-info-skills{
+  padding-left: 25px;
+}
+.skill-list *{
+  margin-inline: 12px;
+}
+
+
+
+
+
+/*Projects CSS*/
+.projects{
+  margin-top: 200px;
+}
+.project-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 12px;
+}
+.project-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  padding-inline: 15px;
+  margin-bottom: 20px;
+}
+.project-item-title{
+  text-align: center;
+  padding: 20px;
+}
+.project-item-title img{
+  margin: 12px;
+}
+
+
+
+
+/*Contact me CSS*/
+.contact-me{
+  display: flex;
+  flex-direction: column;
+  background-color: #2A3663;
+}
+.contact-me *{
+  color: #D8DBBD;
+}
+.location,.my-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+.location-icon,.location-words{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+}
+.icon{
+  width: 35px;
+}
+.link-icon{
+  width: 20px;
+}
+.link{
+  text-decoration: none;
+}
+.link:hover{
+  color: white;
+  font-weight: bold;
+}
+.location-words{
+  padding-inline: 5%;
+}
+.bi-envelope{
+  color: blue;
+}
+
+
+/*Animations*/
+@keyframes blink {
+  0%,100% {
+      opacity: 1;
+  }
+
+  50% {
+      opacity: 0;
+  }
+}
+.blink {
+  animation: blink 1s infinite;
+  border-right-width: 4px;
+  color: white;
+  display: inline-block;
+  border-right-width: 10px;
+}
+
+@media (max-width: 576px){
+  .expertise{
+    margin-inline: auto;
+  }
+  p{
+    font-size: 18px;
+  }
+  .experience{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .project-list{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
