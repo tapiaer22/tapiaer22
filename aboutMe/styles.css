@@ -190,10 +190,9 @@ h4{
 }
 
 @media (max-width: 576px){
-  .expertise{
-    margin-inline: auto;
-  }
-  p{
+  .expertise {margin-inline: auto;}
+  .intro {margin-top: 50px;}
+  p {
     font-size: 18px;
   }
   .experience{
