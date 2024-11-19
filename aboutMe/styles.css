@@ -38,10 +38,18 @@ h4{
   margin-top: 80px;
   margin-bottom: 25px;
 }
+.image-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
 .me{
   border-radius: 25px;
   max-height: 250px;
+  width: 200px;
   margin-block: 15px;
+  transition: opacity 1s ease;
+  animation: fadeInOut 10s infinite;
 }
 .expertise{
   display: flex;
@@ -62,7 +70,23 @@ h4{
 .expertise-item img{
   margin-inline: 18px;
 }
-
+.first-image {
+  animation-delay: 0s;
+  z-index: 1;
+}
+.second-image {
+  position: absolute;
+  animation-delay: 5s;
+  z-index: 0;
+}
+@keyframes fadeInOut {
+  0%, 40% {
+      opacity: 1; /* Show image */
+  }
+  50%, 90% {
+      opacity: 0; /* Hide image */
+  }
+}
 
 
 
