@@ -95,26 +95,53 @@ h4{
 .my-experience{
   margin-top: 200px;
 }
+
 .experience{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 12px;
+  padding: 10px;
+  padding-inline: 15px;
+  margin-bottom: 35px;
 }
-.experience p{
-  font-size: 16px;
-}
+  .experience > *{
+    padding: 10px;
+    padding-inline: 15px;
+  }
+  .experience h3{
+    padding-bottom: 20px;
+    margin: 0;
+  }
+  .experience p{
+    font-size: 16px;
+  }
+
 .experience-info{
 
 }
-.experience-image{
 
+.experience-image{
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
 }
+  .experience-image img{
+    object-fit: fill;
+    max-width: 100%;
+    border-radius: 10px;
+    border: #D8DBBD;
+    border-style: groove;
+    border-width: 15px;
+  }
+
 .experience-info-details{
   padding-left: 25px;
+  padding-bottom: 10px;
 }
+
 .experience-info-skills{
   padding-left: 25px;
 }
+
 .skill-list *{
   margin-inline: 12px;
 }
@@ -127,11 +154,13 @@ h4{
 .projects{
   margin-top: 200px;
 }
+
 .project-list{
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 12px;
 }
+
 .project-item{
   display: flex;
   flex-direction: column;
@@ -140,13 +169,14 @@ h4{
   padding-inline: 15px;
   margin-bottom: 20px;
 }
+
 .project-item-title{
   text-align: center;
   padding: 20px;
 }
-.project-item-title img{
-  margin: 12px;
-}
+  .project-item-title img{
+    margin: 12px;
+  }
 
 
 
@@ -157,9 +187,9 @@ h4{
   flex-direction: column;
   background-color: #2A3663;
 }
-.contact-me *{
-  color: #D8DBBD;
-}
+  .contact-me *{
+    color: #D8DBBD;
+  }
 .location,.my-links{
   display: flex;
   justify-content: center;
@@ -174,22 +204,27 @@ h4{
   margin: 0;
   text-align: center;
 }
+
 .icon{
   width: 35px;
 }
+
 .link-icon{
   width: 20px;
 }
+
 .link{
   text-decoration: none;
 }
-.link:hover{
-  color: white;
-  font-weight: bold;
-}
+  .link:hover{
+    color: white;
+    font-weight: bold;
+  }
+
 .location-words{
   padding-inline: 5%;
 }
+
 .bi-envelope{
   color: blue;
 }
