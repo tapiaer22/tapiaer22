@@ -147,9 +147,11 @@ h4{
   padding-left: 25px;
 }
 
-.skill-list *{
-  margin-inline: 12px;
+.skill-list{
+  display: flex;
 }
+.skill-list img{margin-right: 5px;}
+.skill-list div{margin-right: 12px;}
 
 
 
