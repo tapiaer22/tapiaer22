@@ -103,7 +103,7 @@ h4{
 
 .experience{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 50%;
   padding: 10px;
   padding-inline: 15px;
   margin-bottom: 35px;
@@ -149,9 +149,20 @@ h4{
 
 .skill-list{
   display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  max-width: 100%;
 }
-.skill-list img{margin-right: 5px;}
-.skill-list div{margin-right: 12px;}
+.skill-list img{margin-right: 0px;}
+.skill{
+  flex: 1 1 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-inline: 5px;
+
+}
 
 
 
