@@ -103,7 +103,7 @@ h6{
 
 /*Experience CSS*/
 .my-experience{
-  margin-top: 200px;
+  margin-top: 210px;
 }
 
 .experience{
@@ -111,7 +111,7 @@ h6{
   grid-template-columns: 50% 50%;
   padding: 10px;
   padding-inline: 15px;
-  margin-bottom: 35px;
+  margin-bottom: 55px;
 }
   .experience > *{
     padding: 10px;
@@ -177,7 +177,7 @@ h6{
 
 /*Projects CSS*/
 .projects{
-  margin-top: 200px;
+  margin-top: 210px;
 }
 
 .project-list{
