@@ -112,7 +112,11 @@ h6{
   padding: 10px;
   padding-inline: 15px;
   margin-bottom: 55px;
+  background: linear-gradient(45deg, #1e1e2f, #2c535c);
 }
+  .experience:nth-child(even){
+    background: linear-gradient(315deg, #1e1e2f, #2c535c);
+  }
   .experience > *{
     padding: 10px;
     padding-inline: 15px;
