@@ -197,12 +197,25 @@ h6{
   align-items: center;
   padding: 10px;
   padding-inline: 15px;
+  margin-inline: 6px;
   margin-bottom: 20px;
+  text-decoration: none;
+  color: white;
+
+  border: #2c535c;
+  border-style: double;
+  border-radius: 15px;
+
+  transition: background-color 0.8s ease;
 }
+  .project-item:hover{
+    background-color: #2c535c6d;
+  }
 
 .project-item-title{
   text-align: center;
   padding: 20px;
+  text-decoration: none;
 }
   .project-item-title img{
     margin: 12px;
